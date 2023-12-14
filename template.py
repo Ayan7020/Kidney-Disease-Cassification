@@ -4,8 +4,8 @@ import logging
 
 # For printing string in terminal
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s")
-
-project_name = "CNN-Classifier"
+    
+project_name = "CNN_Classifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",  # If your folder is empty it won't be uploaded to github
