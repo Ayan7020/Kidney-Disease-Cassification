@@ -97,3 +97,446 @@ x===============x]
 [2023-12-15 22:08:42,508: INFO: main: >>>>>> stage Prepare Base model Completed <<<<<<<
 
 x=============x]
+[2023-12-16 12:15:41,308: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 12:15:50,241: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-16 13:27:09,918: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:27:09,932: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:27:09,940: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:28:14,582: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:28:14,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:28:14,589: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:29:53,286: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:29:53,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:29:53,294: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:29:55,232: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 13:29:55,633: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 13:30:20,415: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:30:20,419: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:30:20,422: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:30:40,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:30:40,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:30:40,177: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:31:53,126: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:31:53,131: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:31:53,139: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:32:11,279: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 13:32:11,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 13:32:11,285: INFO: common: created directory at: artifacts\training]
+[2023-12-16 13:32:40,738: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-16 14:49:26,016: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 14:49:49,316: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-16 14:51:55,960: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 14:51:57,231: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-16 14:51:57,231: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-16 14:51:57,233: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 14:51:57,235: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 14:51:57,257: INFO: common: created directory at: artifacts]
+[2023-12-16 14:51:57,258: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-16 14:51:57,259: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 14:54:34,187: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 14:57:40,856: INFO: main: >>>>Stage Data Ingestion Stage Completed <<<<
+
+x===============x]
+[2023-12-16 14:57:40,857: INFO: main: **********]
+[2023-12-16 14:57:40,857: INFO: main: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-16 14:57:40,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 14:57:40,968: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 14:57:41,046: INFO: common: created directory at: artifacts]
+[2023-12-16 14:57:41,047: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-16 14:57:42,676: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 14:57:47,737: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 14:57:51,187: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-16 14:57:52,022: INFO: main: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-16 15:08:40,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 15:08:40,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 15:08:40,786: INFO: common: created directory at: artifacts\training]
+[2023-12-16 15:08:41,715: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 15:08:42,265: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 15:08:59,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 15:08:59,286: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 15:08:59,289: INFO: common: created directory at: artifacts\training]
+[2023-12-16 15:10:11,219: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 15:10:11,224: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 15:10:11,228: INFO: common: created directory at: artifacts\training]
+[2023-12-16 15:10:22,386: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-16 15:16:40,069: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 15:16:50,996: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-16 15:16:50,997: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-16 15:16:50,999: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 15:16:51,000: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 15:16:51,001: INFO: common: created directory at: artifacts]
+[2023-12-16 15:16:51,002: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-16 15:16:51,003: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 15:20:29,386: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 15:23:09,855: INFO: main: >>>>Stage Data Ingestion Stage Completed <<<<
+
+x===============x]
+[2023-12-16 15:23:09,855: INFO: main: **********]
+[2023-12-16 15:23:09,856: INFO: main: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-16 15:23:09,859: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 15:23:09,861: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 15:23:09,862: INFO: common: created directory at: artifacts]
+[2023-12-16 15:23:09,863: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-16 15:23:10,686: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 15:23:15,848: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 15:23:19,496: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-16 15:23:20,479: INFO: main: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-16 15:24:58,997: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 15:25:01,567: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-16 15:25:29,757: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 15:25:29,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 15:25:29,772: INFO: common: created directory at: artifacts\training]
+[2023-12-16 15:25:30,811: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 15:25:31,186: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 15:25:40,487: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-16 17:53:26,561: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 17:53:43,166: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-16 17:53:43,167: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-16 17:53:43,169: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 17:53:43,171: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 17:53:43,186: INFO: common: created directory at: artifacts]
+[2023-12-16 17:53:43,187: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-16 17:53:43,188: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 17:56:25,643: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 17:59:59,498: INFO: main: >>>>Stage Data Ingestion Stage Completed <<<<
+
+x===============x]
+[2023-12-16 17:59:59,498: INFO: main: **********]
+[2023-12-16 17:59:59,499: INFO: main: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-16 17:59:59,501: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 17:59:59,503: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 17:59:59,504: INFO: common: created directory at: artifacts]
+[2023-12-16 17:59:59,505: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-16 18:00:02,248: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 18:00:14,197: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 18:00:34,803: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-16 18:00:36,003: ERROR: main: Inputs to a layer should be tensors. Got '<keras.src.layers.regularization.dropout.Dropout object at 0x00000288AD0D0D90>' (of type <class 'keras.src.layers.regularization.dropout.Dropout'>) as input for layer 'dense_1'.]
+Traceback (most recent call last):
+  File "E:\Kidney-Disease-Cassification\main.py", line 26, in <module>
+    obj.main()
+  File "e:\kidney-disease-cassification\src\CNN_Classifier\pipeline\stage02.py", line 18, in main
+    prepare_base_model.update_base_model()
+  File "e:\kidney-disease-cassification\src\CNN_Classifier\components\prepare_base_model.py", line 54, in update_base_model
+    self.full_model = self._prepare_full_model(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\kidney-disease-cassification\src\CNN_Classifier\components\prepare_base_model.py", line 40, in _prepare_full_model
+    prediction = tf.keras.layers.Dense(units=classes, activation="softmax")(drop)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 213, in assert_input_compatibility
+    raise TypeError(
+TypeError: Inputs to a layer should be tensors. Got '<keras.src.layers.regularization.dropout.Dropout object at 0x00000288AD0D0D90>' (of type <class 'keras.src.layers.regularization.dropout.Dropout'>) as input for layer 'dense_1'.
+[2023-12-16 18:04:13,621: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 18:04:21,264: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-16 18:04:21,264: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-16 18:04:21,266: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 18:04:21,268: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 18:04:21,269: INFO: common: created directory at: artifacts]
+[2023-12-16 18:04:21,270: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-16 18:04:21,270: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 18:08:48,444: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 18:11:36,041: INFO: main: >>>>Stage Data Ingestion Stage Completed <<<<
+
+x===============x]
+[2023-12-16 18:11:36,042: INFO: main: **********]
+[2023-12-16 18:11:36,042: INFO: main: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-16 18:11:36,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 18:11:36,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 18:11:36,047: INFO: common: created directory at: artifacts]
+[2023-12-16 18:11:36,048: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-16 18:11:38,024: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 18:11:43,275: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 18:11:46,890: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-16 18:11:48,310: INFO: main: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-16 18:13:41,586: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 18:13:46,462: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-16 18:14:06,427: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 18:14:06,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 18:14:06,433: INFO: common: created directory at: artifacts\training]
+[2023-12-16 18:14:07,524: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 18:14:07,700: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 18:14:18,641: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-16 21:35:20,337: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 21:36:09,475: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-16 21:36:09,476: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-16 21:36:09,478: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 21:36:09,479: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 21:36:09,480: INFO: common: created directory at: artifacts]
+[2023-12-16 21:36:09,481: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-16 21:36:09,482: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 21:39:27,154: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-16 21:43:23,070: INFO: main: >>>>Stage Data Ingestion Stage Completed <<<<
+
+x===============x]
+[2023-12-16 21:43:23,070: INFO: main: **********]
+[2023-12-16 21:43:23,071: INFO: main: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-16 21:43:23,073: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 21:43:23,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 21:43:23,076: INFO: common: created directory at: artifacts]
+[2023-12-16 21:43:23,077: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-16 21:43:23,863: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 21:43:29,070: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 21:43:42,514: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-16 21:43:44,035: INFO: main: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-16 21:46:16,578: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 21:46:19,480: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-16 21:46:50,925: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 21:46:50,931: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 21:46:50,936: INFO: common: created directory at: artifacts\training]
+[2023-12-16 21:46:51,916: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 21:46:52,233: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 21:47:01,011: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-16 21:57:09,279: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-16 21:57:09,762: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-16 21:57:17,320: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-16 21:57:17,326: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-16 21:57:17,329: INFO: common: created directory at: artifacts\training]
+[2023-12-16 21:57:17,953: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-16 21:57:18,227: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-16 21:57:22,875: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 00:28:23,660: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 00:28:27,711: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 00:28:50,372: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 00:28:50,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 00:28:50,380: INFO: common: created directory at: artifacts\training]
+[2023-12-17 00:28:51,902: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 00:28:52,180: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 00:32:01,861: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 00:32:02,070: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 00:32:02,072: INFO: common: created directory at: artifacts\training]
+[2023-12-17 00:32:06,382: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 01:27:48,908: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 01:27:56,857: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-17 01:27:56,858: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-17 01:27:56,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 01:27:56,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 01:27:56,863: INFO: common: created directory at: artifacts]
+[2023-12-17 01:27:56,864: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-17 01:27:56,865: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-17 01:30:49,739: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-17 01:33:32,588: INFO: main: >>>>Stage Data Ingestion Stage Completed <<<<
+
+x===============x]
+[2023-12-17 01:33:32,588: INFO: main: **********]
+[2023-12-17 01:33:32,589: INFO: main: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-17 01:33:32,593: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 01:33:32,595: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 01:33:32,596: INFO: common: created directory at: artifacts]
+[2023-12-17 01:33:32,597: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-17 01:33:33,541: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 01:33:38,603: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 01:43:49,363: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-17 01:43:50,587: INFO: main: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-17 01:45:24,773: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 01:45:27,819: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 01:45:42,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 01:45:42,255: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 01:45:42,299: INFO: common: created directory at: artifacts\training]
+[2023-12-17 01:45:44,131: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 01:45:44,364: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 01:45:53,013: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 09:04:50,079: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 09:05:04,078: INFO: stage02: **********]
+[2023-12-17 09:05:04,078: INFO: stage02: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-17 09:05:04,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 09:05:04,081: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 09:05:04,082: INFO: common: created directory at: artifacts]
+[2023-12-17 09:05:04,084: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-17 09:05:04,777: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 09:05:08,778: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 09:05:12,715: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-17 09:05:13,842: INFO: stage02: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-17 09:06:37,607: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 09:06:38,355: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 09:07:35,884: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 09:07:35,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 09:07:35,895: INFO: common: created directory at: artifacts\training]
+[2023-12-17 09:07:37,750: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 09:07:38,096: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 09:09:37,207: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 09:09:37,211: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 09:09:37,216: INFO: common: created directory at: artifacts\training]
+[2023-12-17 09:09:47,799: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 09:40:34,046: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 09:40:34,928: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 09:40:36,680: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 09:40:43,292: INFO: stage02: **********]
+[2023-12-17 09:40:43,292: INFO: stage02: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-17 09:40:43,295: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 09:40:43,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 09:40:43,297: INFO: common: created directory at: artifacts]
+[2023-12-17 09:40:43,298: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-17 09:40:43,650: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 09:40:43,798: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 09:40:46,155: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-17 09:40:46,734: INFO: stage02: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-17 09:46:54,051: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 09:46:54,056: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 09:46:54,059: INFO: common: created directory at: artifacts\training]
+[2023-12-17 09:48:39,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 09:48:39,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 09:48:39,570: INFO: common: created directory at: artifacts\training]
+[2023-12-17 09:48:40,006: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 09:48:40,259: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 09:48:44,370: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 10:42:06,423: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 10:42:10,938: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 10:48:35,129: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 10:48:36,529: INFO: stage02: **********]
+[2023-12-17 10:48:36,529: INFO: stage02: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-17 10:48:36,532: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 10:48:36,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 10:48:36,534: INFO: common: created directory at: artifacts]
+[2023-12-17 10:48:36,535: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-17 10:48:36,919: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 10:48:37,044: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 10:48:39,530: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-17 10:48:40,538: INFO: stage02: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]
+[2023-12-17 10:50:35,437: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 10:50:35,599: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 10:51:46,633: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 10:51:47,297: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 12:08:50,789: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 12:08:55,642: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 12:14:39,083: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 12:14:39,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 12:14:39,092: INFO: common: created directory at: artifacts\training]
+[2023-12-17 12:15:11,656: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 12:15:11,661: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 12:15:11,664: INFO: common: created directory at: artifacts\training]
+[2023-12-17 12:15:13,231: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 12:15:13,569: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 12:16:51,632: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 12:16:51,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 12:16:51,641: INFO: common: created directory at: artifacts\training]
+[2023-12-17 12:18:17,406: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 12:18:17,411: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 12:18:17,414: INFO: common: created directory at: artifacts\training]
+[2023-12-17 12:19:01,778: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 12:19:01,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 12:19:01,785: INFO: common: created directory at: artifacts\training]
+[2023-12-17 12:20:19,332: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 12:20:19,337: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 12:20:19,340: INFO: common: created directory at: artifacts\training]
+[2023-12-17 12:20:24,824: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 15:08:31,442: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 15:08:36,428: INFO: utils: NumExpr defaulting to 4 threads.]
+[2023-12-17 15:08:46,634: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 15:08:46,639: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 15:08:46,642: INFO: common: created directory at: artifacts\training]
+[2023-12-17 15:08:47,489: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 15:08:47,650: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 15:08:54,632: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-17 19:50:15,862: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-17 19:50:26,458: INFO: stage02: **********]
+[2023-12-17 19:50:26,458: INFO: stage02: >>>>>> stage Prepare Base model Started <<<<<<]
+[2023-12-17 19:50:26,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-17 19:50:26,479: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-17 19:50:26,481: INFO: common: created directory at: artifacts]
+[2023-12-17 19:50:26,485: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-17 19:50:27,135: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-17 19:50:27,305: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-17 19:50:37,063: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-17 19:50:37,670: INFO: stage02: >>>>>> stage Prepare Base model Completed <<<<<<<
+
+x=============x]

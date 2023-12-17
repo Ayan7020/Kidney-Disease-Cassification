@@ -13,9 +13,11 @@ class PrepareBaseModel:
 
     def get_base_model(self):
         self.model = tf.keras.applications.vgg16.VGG16(
-            input_shape=self.config.params_image_size,
+            input_shape=self.config.params_image_size,  
+            pooling='max',
             weights=self.config.params_weights,
             include_top=self.config.params_include_top,
+            classes=4
         )
 
         self.save_model(path=self.config.base_model_path, model=self.model)
@@ -25,7 +27,7 @@ class PrepareBaseModel:
         model.save(path)
 
     @staticmethod
-    def _prepare_full_model(model, classes, freeze_all, freeze_till, learning_rate):
+    def _prepare_full_model(model, classes, freeze_all, freeze_till):
         if freeze_all:
             for layer in model.layers:
                 model.trainable = False
@@ -34,13 +36,16 @@ class PrepareBaseModel:
                 model.trainable = False
 
         flatten_in = tf.keras.layers.Flatten()(model.output)
-        temp = tf.keras.layers.Dense(units=35, activation="softmax")(flatten_in)
-        prediction = tf.keras.layers.Dense(units=classes, activation="softmax")(temp)
+        layer = tf.keras.layers.Dense(units=512, activation="relu")(flatten_in)
+        norm = tf.keras.layers.BatchNormalization()(layer) 
+        drop = tf.keras.layers.Dropout(0.5)(norm) 
+         
+        prediction = tf.keras.layers.Dense(units=classes, activation="softmax")(drop)
 
         full_model = tf.keras.models.Model(inputs=model.input, outputs=prediction)
 
         full_model.compile(
-            optimizer=tf.keras.optimizers.Adam(),
+            optimizer=tf.keras.optimizers.Adam(0.0001),
             loss=tf.keras.losses.CategoricalCrossentropy(),
             metrics=["accuracy"],
         )
@@ -53,8 +58,7 @@ class PrepareBaseModel:
             model=self.model,
             classes=self.config.params_classes,
             freeze_all=True,
-            freeze_till=None,
-            learning_rate=self.config.params_learning_rate,
+            freeze_till=None, 
         )
         self.save_model(path=self.config.updated_base_model_path, model=self.full_model)
 
