@@ -1779,3 +1779,12 @@ PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x
 [2023-12-18 18:20:23,781: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\templating.py', reloading]
 [2023-12-18 18:20:23,799: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\__init__.py', reloading]
 [2023-12-18 18:20:23,812: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\environment.py', reloading]
+[2023-12-18 18:20:25,517: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:20:33,950: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:20:35,403: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:20:35,422: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:20:36,115: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:20:36,127: INFO: _internal:  * Debugger PIN: 329-867-760]
