@@ -558,3 +558,1224 @@ x=============x]
 ]
 [2023-12-18 12:22:29,890: INFO: common: json file saved at: scores.json]
 [2023-12-18 12:22:38,643: INFO: builder_impl: Assets written to: C:\Users\Adil\AppData\Local\Temp\tmpf10aq9nt\model\data\model\assets]
+[2023-12-18 15:26:48,442: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:27:02,914: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<<<]
+[2023-12-18 15:27:02,915: INFO: main: >>>>Stage Data Ingestion Stage started <<<<]
+[2023-12-18 15:27:02,918: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-18 15:27:02,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-18 15:27:02,920: INFO: common: created directory at: artifacts]
+[2023-12-18 15:27:02,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-18 15:27:02,922: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YdCFEgrKdm3JY4MZ4OX9czy5BETqkpHs/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-18 15:28:04,845: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:28:06,316: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 15:28:06,419: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 15:28:36,178: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:28:37,511: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.105:8080]
+[2023-12-18 15:28:37,511: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 15:28:59,284: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:28:59] "GET / HTTP/1.1" 200 -]
+[2023-12-18 15:29:13,845: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "E:\Kidney-Disease-Cassification\app.py", line 31, in predictRoute
+    decodeImage(image,clAPP.filename)
+                     ^^^^^
+NameError: name 'clAPP' is not defined
+[2023-12-18 15:29:13,855: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:29:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 15:30:15,681: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:30:16,643: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.105:8080]
+[2023-12-18 15:30:16,643: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 15:30:23,085: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:30:23] "GET / HTTP/1.1" 200 -]
+[2023-12-18 15:30:29,679: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 15:30:29,707: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 15:30:31,353: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:30:31] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 15:30:44,854: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:30:44] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2023-12-18 15:30:44,945: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:30:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-12-18 15:49:39,808: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:49:40,909: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.105:8080]
+[2023-12-18 15:49:40,909: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 15:49:54,391: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:49:54] "GET / HTTP/1.1" 200 -]
+[2023-12-18 15:49:59,889: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 15:49:59,916: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 15:50:01,876: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "E:\Kidney-Disease-Cassification\app.py", line 32, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\kidney-disease-cassification\src\CNN_Classifier\pipeline\prediction.py", line 17, in predict
+    test_image = image.load_img(imagename,target_size=(150,150))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\image_utils.py", line 423, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\PIL\Image.py", line 3280, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001E73B6F6610>
+[2023-12-18 15:50:01,907: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:50:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 15:51:08,121: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:51:08] "GET / HTTP/1.1" 200 -]
+[2023-12-18 15:51:11,516: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:51:11] "GET / HTTP/1.1" 200 -]
+[2023-12-18 15:51:31,253: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "E:\Kidney-Disease-Cassification\app.py", line 32, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\kidney-disease-cassification\src\CNN_Classifier\pipeline\prediction.py", line 17, in predict
+    test_image = image.load_img(imagename,target_size=(150,150))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\image_utils.py", line 423, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\PIL\Image.py", line 3280, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001E73B50ACA0>
+[2023-12-18 15:52:03,481: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:52:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 15:58:46,276: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:58:47,264: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.105:8080]
+[2023-12-18 15:58:47,264: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 15:58:58,819: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:58:58] "GET / HTTP/1.1" 200 -]
+[2023-12-18 15:59:48,880: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 15:59:49,831: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.105:8080]
+[2023-12-18 15:59:49,831: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 15:59:52,043: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 15:59:52] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:00:50,261: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:00:51,397: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:00:51,397: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:00:51,642: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:00:58,963: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:00:59,969: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:01:02,699: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:01:29,441: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:01:29] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:01:30,012: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:01:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-12-18 16:01:53,871: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:01:53,908: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:01:53,910: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:01:55,399: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:02:35,276: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:07:10,039: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:07:11,201: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:07:11,202: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:07:11,212: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:07:19,612: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:07:20,650: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:07:22,644: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:07:34,668: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:07:34] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:07:59,600: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:07:59,601: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:08:02,695: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:08:10,874: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:08:11,957: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:08:11,972: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:10:35,419: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:35] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:10:37,308: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:37] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:10:37,946: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:37] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:10:38,169: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:38] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:10:42,153: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading]
+[2023-12-18 16:10:42,167: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask_cors\\extension.py', reloading]
+[2023-12-18 16:10:42,189: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\debughelpers.py', reloading]
+[2023-12-18 16:10:42,199: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\datastructures\\structures.py', reloading]
+[2023-12-18 16:10:42,242: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:10:42,569: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:42] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -]
+[2023-12-18 16:10:42,573: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:42] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -]
+[2023-12-18 16:10:42,715: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:42] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -]
+[2023-12-18 16:10:42,732: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:10:42] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:10:43,574: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:10:50,751: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:10:51,902: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:10:51,919: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:12:06,989: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:12:06,990: INFO: _internal:  * Detected change in 'E:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:12:08,250: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:12:17,196: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:12:18,579: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:12:18,601: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:12:18,975: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:12:18] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:12:19,988: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\__init__.py', reloading]
+[2023-12-18 16:12:20,002: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\environment.py', reloading]
+[2023-12-18 16:12:20,982: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:12:28,787: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:12:29,744: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:12:29,758: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:12:40,479: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:12:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:12:40,787: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:12:40] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:12:40,803: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:12:40] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:12:40,905: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:12:40] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:14:51,233: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:14:52,417: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:14:52,418: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:14:52,431: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:15:00,958: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:15:02,324: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:15:02,337: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:15:02,713: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:15:02] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:15:08,810: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:15:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:15:09,149: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:15:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:15:09,165: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:15:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:15:09,267: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:15:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:15:40,943: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:15:40,944: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:15:40,960: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:15:41,887: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:15:49,750: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:15:50,910: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:15:50,922: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:15:56,522: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:15:56] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:16:01,699: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:16:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:16:02,021: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:16:02] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:16:02,028: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:16:02] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:16:02,136: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:16:02] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:16:15,238: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:16:15,239: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:16:15,240: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:16:15,955: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:16:24,161: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:16:25,206: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:16:25,219: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:16:25,579: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:16:25] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:16:31,136: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:16:31] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:16:43,991: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\numpy\\core\\fromnumeric.py', reloading]
+[2023-12-18 16:16:45,468: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:16:54,575: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:16:55,671: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:16:55,686: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:17:57,577: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:17:57,578: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:17:58,797: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:18:07,432: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:18:08,746: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:18:08,759: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:19:49,253: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:19:49] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:19:54,181: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:19:54] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:19:54,210: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:19:54] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:20:22,708: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:20:22,709: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:20:24,775: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:20:34,048: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:20:35,561: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:20:35,577: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:20:41,047: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:20:41] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:20:46,418: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:20:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:20:46,721: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:20:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:20:46,732: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:20:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:20:46,838: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:20:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:20:46,859: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:20:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:23:18,777: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:23:18,779: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:23:20,022: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:23:28,305: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:23:29,293: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:23:29,305: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:23:37,962: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:23:37] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:23:43,803: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:23:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:23:44,087: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:23:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:23:44,088: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:23:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:23:44,136: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:23:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:24:08,679: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:24:08,681: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:24:08,682: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:24:08,683: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:24:10,617: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:24:18,882: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:24:20,073: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:24:20,089: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:24:26,539: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:24:26,540: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:24:27,550: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:24:37,027: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:24:38,103: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:24:38,118: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:24:43,905: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:24:43] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:24:48,938: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:24:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:24:49,229: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:24:49,248: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:24:49,355: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:25:04,040: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:25:04,042: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:25:05,842: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:25:14,920: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:25:15,985: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:25:15,998: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:25:16,355: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:25:16] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:25:21,533: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\engine\\input_layer.py', reloading]
+[2023-12-18 16:25:21,548: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\utils\\traceback_utils.py', reloading]
+[2023-12-18 16:25:21,566: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\saving\\legacy\\serialization.py', reloading]
+[2023-12-18 16:25:21,583: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\saving\\serialization_lib.py', reloading]
+[2023-12-18 16:25:21,596: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\layers\\serialization.py', reloading]
+[2023-12-18 16:25:21,615: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\engine\\functional.py', reloading]
+[2023-12-18 16:25:21,626: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\engine\\training.py', reloading]
+[2023-12-18 16:25:21,636: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\saving\\legacy\\model_config.py', reloading]
+[2023-12-18 16:25:21,649: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\saving\\legacy\\hdf5_format.py', reloading]
+[2023-12-18 16:25:21,664: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\saving\\legacy\\save.py', reloading]
+[2023-12-18 16:25:21,674: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\saving\\saving_api.py', reloading]
+[2023-12-18 16:25:21,686: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading]
+[2023-12-18 16:25:21,753: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:25:21,788: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\layers\\pooling\\max_pooling2d.py', reloading]
+[2023-12-18 16:25:21,814: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:30:35,859: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:30:37,100: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:30:37,125: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:30:39,050: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:30:39,051: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:30:39,063: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:30:47,766: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:30:49,428: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:30:49,451: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:30:50,322: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:30:50,340: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:30:50,729: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:30:50] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:30:57,179: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\utils\\image_utils.py', reloading]
+[2023-12-18 16:30:57,213: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:30:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:30:57,490: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:30:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:30:57,498: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:30:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:30:57,608: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:30:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:30:58,247: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:31:06,194: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:31:07,429: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:31:07,457: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:31:08,285: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:31:08,305: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:31:13,435: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:31:13] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:31:18,059: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:31:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:31:18,367: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:31:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:31:18,378: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:31:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:31:18,482: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:31:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:32:06,683: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:32:06,685: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:32:07,954: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:34:15,803: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:34:16,904: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:34:16,906: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:34:16,921: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:34:25,032: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:34:26,075: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:34:26,088: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:34:26,434: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:34:26] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:34:31,915: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\serving.py', reloading]
+[2023-12-18 16:34:31,917: INFO: _internal:  * Detected change in 'C:\\Program Files\\Python311\\Lib\\http\\server.py', reloading]
+[2023-12-18 16:34:31,920: INFO: _internal:  * Detected change in 'C:\\Program Files\\Python311\\Lib\\socketserver.py', reloading]
+[2023-12-18 16:34:31,923: INFO: _internal:  * Detected change in 'C:\\Program Files\\Python311\\Lib\\threading.py', reloading]
+[2023-12-18 16:34:31,951: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:34:32,007: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:34:32,880: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:34:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 16:34:33,157: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:34:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 16:34:33,166: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:34:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 16:34:33,267: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:34:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 16:34:34,182: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:34:41,862: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:34:43,034: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:34:43,049: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:36:22,015: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:36:22,016: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:36:22,814: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:37:05,295: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:37:06,610: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:37:06,630: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:37:07,407: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:37:07,407: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:37:07,421: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:37:15,253: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:37:16,696: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:37:16,717: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:37:17,525: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:37:17,547: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:37:17,883: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:37:17] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:37:22,290: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:37:22] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:39:38,258: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:39:38,259: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:39:39,698: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:39:49,480: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:39:51,079: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:39:51,102: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:39:52,192: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:39:52,217: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:39:52,639: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:39:52] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:39:58,367: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:39:58] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:40:41,133: INFO: _internal:  * Detected change in 'C:\\Program Files\\Python311\\Lib\\typing.py', reloading]
+[2023-12-18 16:40:42,604: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:40:50,475: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:40:51,876: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:40:51,897: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:40:52,820: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:40:52,831: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:41:19,840: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:41:19,842: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:41:19,843: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:41:19,844: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 16:41:21,703: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:41:30,331: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:47:30,617: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:47:31,619: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:47:31,620: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:47:31,634: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:47:39,723: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:47:41,103: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:47:41,115: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:47:43,127: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:47:43] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:47:48,064: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:47:48] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:48:10,119: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:48:10,121: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:48:11,601: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:48:27,037: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:48:28,304: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:48:28,333: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:48:29,091: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:48:29,092: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:48:29,105: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:48:37,136: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:48:38,543: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:48:38,568: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:48:39,443: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:48:39,460: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:48:39,849: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:48:39] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:48:55,174: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:48:55] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:49:44,556: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:49:44] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:49:57,836: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:49:57] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:50:43,190: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:50:43,191: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:50:44,328: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:50:57,432: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:50:58,755: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:50:58,775: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:50:59,529: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:50:59,541: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:51:13,291: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:51:13,293: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:51:13,455: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 16:51:14,740: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:51:23,600: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:51:24,963: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:51:24,992: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:51:26,037: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:51:26,051: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:51:26,382: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:51:26] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:51:38,007: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:51:38] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:52:32,858: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:52:32] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:52:46,176: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:52:46] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 16:55:05,228: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:55:06,530: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:55:06,551: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:55:07,301: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 16:55:07,302: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 16:55:07,312: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 16:55:14,916: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 16:55:16,250: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 16:55:16,275: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 16:55:17,059: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 16:55:17,073: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 16:55:17,405: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:55:17] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:55:37,617: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:55:37] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:56:32,388: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:56:32] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:56:39,956: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:56:39] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:56:44,481: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:56:44] "GET / HTTP/1.1" 200 -]
+[2023-12-18 16:56:49,612: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 16:56:49] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:01:51,665: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:01:51,666: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:01:52,902: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:02:00,925: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:02:02,334: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:02:02,356: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:02:03,184: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:02:03,197: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:02:05,600: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:02:05,601: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:02:07,020: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:02:14,465: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:02:15,988: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:02:16,015: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:02:16,793: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:02:16,805: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:02:20,301: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\signals.py', reloading]
+[2023-12-18 17:02:20,667: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\markupsafe\\__init__.py', reloading]
+[2023-12-18 17:02:22,369: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:02:30,605: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:02:31,933: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:02:31,956: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:02:33,197: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:02:33,212: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:02:42,164: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:02:42,165: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:02:43,578: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:02:50,112: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:02:51,346: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:02:51,365: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:02:52,080: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:02:52,091: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:03:09,553: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\loaders.py', reloading]
+[2023-12-18 17:03:09,614: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:03:09] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2023-12-18 17:03:09,903: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:03:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -]
+[2023-12-18 17:03:09,917: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:03:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -]
+[2023-12-18 17:03:10,087: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:03:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:03:10,099: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:03:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:03:10,846: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:03:19,093: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:03:20,403: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:03:20,422: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:03:21,136: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:03:21,147: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:03:46,634: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:03:46,635: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:03:48,545: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:03:56,170: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:03:57,573: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:03:57,596: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:03:58,420: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:03:58,435: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:04:00,881: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:04:02,297: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:04:10,065: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:04:11,403: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:04:11,434: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:04:12,193: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:04:12,205: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:04:12,581: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:12] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2023-12-18 17:04:12,846: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:12,847: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:12,887: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:12,928: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:18,576: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:04:18,577: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:04:20,205: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:04:28,970: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:04:30,667: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:04:30,689: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:04:31,518: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:04:31,535: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:04:31,920: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:31] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2023-12-18 17:04:32,145: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:32,162: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:32,187: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:32,216: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:04:44,848: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:44] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:04:50,837: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:04:50] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:05:40,970: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:05:40,971: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:05:40,972: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:05:40,973: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:05:40,974: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:05:40,974: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:05:41,724: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:05:49,417: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:05:50,659: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:05:50,680: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:05:51,405: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:05:51,421: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:07:56,293: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:07:56] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:07:58,787: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:07:58] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:08:10,659: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:08:10] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:08:13,604: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:08:13] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:08:23,210: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:08:23] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:08:26,721: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:08:26] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:10:18,897: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:10:18] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:10:35,767: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:10:35] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:10:48,082: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:10:48] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:12:58,291: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\templating.py', reloading]
+[2023-12-18 17:12:59,339: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:13:07,556: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:13:08,862: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:13:08,889: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:13:09,618: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:13:09,629: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:13:13,980: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:13:13,990: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:13:15,247: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:13:23,576: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:13:24,805: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:13:24,823: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:13:25,554: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:13:25,566: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:15:47,270: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:15:47] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:15:52,517: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:15:52] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:16:06,219: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:16:06,231: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:16:06,232: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:16:07,309: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:16:15,806: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:16:17,220: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:16:17,242: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:16:17,999: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:16:18,010: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:16:35,935: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:16:35] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2023-12-18 17:16:38,412: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:16:38] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:16:43,367: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:16:43] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:17:00,069: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading]
+[2023-12-18 17:17:00,071: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask_cors\\extension.py', reloading]
+[2023-12-18 17:17:00,074: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\environment.py', reloading]
+[2023-12-18 17:17:00,145: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:00] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2023-12-18 17:17:00,372: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:00] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2023-12-18 17:17:00,631: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 17:17:00,651: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 17:17:00,782: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:17:00,812: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:17:01,538: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:17:09,531: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:17:10,872: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:17:10,900: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:17:11,668: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:17:11,680: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:17:12,003: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:12] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:17:18,333: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:17:18,334: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:17:19,549: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:17:28,081: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:17:29,444: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:17:29,466: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:17:30,415: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:17:30,427: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:17:30,747: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:30] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:17:37,160: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:37] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:17:47,685: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:17:47,688: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:17:47,689: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:17:48,902: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:17:56,179: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:17:57,476: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:17:57,499: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:17:58,260: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:17:58,272: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:17:58,595: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:17:58] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:18:06,015: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:18:06] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:18:43,219: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:18:43,220: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:18:43,993: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:18:51,614: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:18:53,222: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:18:53,261: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:18:54,143: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:18:54,158: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:18:54,548: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:18:54] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:19:00,483: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:19:00] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:19:28,706: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:28,708: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:28,709: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:28,710: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:28,711: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:30,748: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:19:39,127: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:19:40,866: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:19:40,911: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:19:41,943: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:19:41,961: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:19:43,319: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:43,320: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:43,321: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:43,322: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:43,323: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:19:44,694: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:19:52,887: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:19:54,582: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:19:54,605: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:19:55,342: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:19:55,354: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:20:01,669: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:20:01] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:20:04,461: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:20:04] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:20:09,990: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:20:09] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:20:33,753: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,754: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,755: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,755: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,756: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,913: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,916: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:33,948: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 17:20:34,939: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:20:42,280: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:20:43,500: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:20:43,520: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:20:44,232: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:20:44,244: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:20:52,010: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:20:52] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:20:58,304: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:20:58] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:17,305: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:17] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:22:23,132: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:23] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:24,914: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:24] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:25,572: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:25] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:25,852: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:25] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:26,098: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:26] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:26,400: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:26] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:26,628: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:26] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:26,964: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:26] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:27,076: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:27] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:27,135: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:27] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:28,282: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:28] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:42,877: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:42] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:43,855: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:43] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:22:44,726: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:44] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:22:49,924: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:22:49] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:24:33,711: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:24:33] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:24:39,446: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:24:39] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:24:53,201: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:24:53] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:26:11,829: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:26:11,831: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:26:13,852: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:26:20,853: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:26:22,283: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:26:22,303: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:26:23,040: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:26:23,052: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:26:29,820: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:26:29,821: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:26:31,013: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:28:31,395: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:28:32,671: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:28:32,692: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:28:33,447: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 17:28:33,448: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 17:28:33,461: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:28:40,652: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:28:42,143: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:28:42,165: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:28:42,941: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:28:42,954: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:28:43,286: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:28:43] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:28:49,973: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:28:49] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:30:07,960: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:30:07,961: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:30:09,524: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:30:22,635: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:30:23,896: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:30:23,918: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:30:24,733: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 17:30:24,735: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 17:30:24,746: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:30:32,540: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:30:33,905: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:30:33,928: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:30:34,712: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:30:34,725: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:30:47,300: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:30:47] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:30:47,357: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:30:47] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:30:53,801: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:30:53] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:30:58,095: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\main.py', reloading]
+[2023-12-18 17:30:59,903: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:31:08,211: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:31:09,644: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:31:09,673: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:31:10,852: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:31:10,867: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:31:11,188: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:11] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:31:11,235: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:11] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:31:19,669: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:19] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:31:40,041: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:40] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:31:40,114: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:40] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:31:46,660: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:46] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:31:48,441: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:48] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:31:48,499: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:31:48] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:31:50,647: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:31:50,648: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:31:50,649: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:31:51,489: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:31:59,326: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:32:01,238: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:32:01,262: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:32:02,242: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:32:02,260: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:32:02,607: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:02] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:32:02,630: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:02] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:32:22,404: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:22] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:32:22,429: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:22] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:32:36,330: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:36] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:32:36,354: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:36] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:32:40,900: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:40] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:32:40,967: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:32:40] "[33mGET /input_image.jpg HTTP/1.1[0m" 404 -]
+[2023-12-18 17:35:07,273: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:35:08,872: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:35:08,898: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:35:10,053: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 17:35:10,054: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 17:35:10,069: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:35:18,303: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:35:19,989: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:35:20,013: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:35:21,064: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:35:21,079: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:35:21,414: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:35:21] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:35:21,504: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:35:21] "[35m[1mGET /image HTTP/1.1[0m" 500 -]
+[2023-12-18 17:35:37,012: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:35:37] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:35:37,065: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:35:37] "[35m[1mGET /image HTTP/1.1[0m" 500 -]
+[2023-12-18 17:36:42,599: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:36:42,601: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:36:42,601: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:36:43,944: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:36:52,317: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:36:54,090: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:36:54,116: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:36:55,327: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:36:55,346: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:37:02,133: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:37:02] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:37:21,797: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:37:21] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:38:20,304: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:38:20] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:38:41,257: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:38:41] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:38:54,912: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:38:54] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:40:06,515: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:40:06] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:40:07,254: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:40:07] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:40:07,387: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:40:07] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:40:07,617: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:40:07] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:40:15,368: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:40:15] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:41:41,939: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:41:41] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:41:47,146: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:41:47] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:41:54,395: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:41:54] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:41:55,536: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:41:55] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:42:01,234: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:42:01] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:42:10,529: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:42:10] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:42:17,050: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:42:17] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:42:45,212: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:42:45] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:42:54,840: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:42:54] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:43:15,913: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:15] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2023-12-18 17:43:16,220: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2023-12-18 17:43:16,225: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2023-12-18 17:43:16,389: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:43:16,430: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2023-12-18 17:43:23,669: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:23] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:43:32,655: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:43:32] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:44:14,704: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:44:14,705: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:44:14,706: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:44:16,171: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:46:36,900: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:46:38,127: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:46:38,149: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:46:38,890: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 17:46:38,891: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 17:46:38,906: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:46:46,386: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:46:47,747: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:46:47,772: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:46:48,505: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:46:48,518: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:46:49,296: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:46:49] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:46:55,273: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:46:55] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:46:55,311: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:46:55] "[33mGET /<Response%20streamed%20[200%20OK]> HTTP/1.1[0m" 404 -]
+[2023-12-18 17:47:23,701: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:47:23] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:47:23,760: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:47:23] "[33mGET /<Response%20streamed%20[200%20OK]> HTTP/1.1[0m" 404 -]
+[2023-12-18 17:47:53,773: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:47:53,774: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 17:47:54,762: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 17:48:01,282: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 17:48:02,517: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 17:48:02,535: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 17:48:03,231: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 17:48:03,243: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 17:48:30,187: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:48:30] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:48:40,665: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:48:40] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:53:59,323: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:53:59] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:54:06,565: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:54:06] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:54:27,209: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:54:27] "GET / HTTP/1.1" 200 -]
+[2023-12-18 17:54:35,692: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:54:35] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:54:47,135: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:54:47] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 17:55:35,968: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 17:55:35] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:00:24,946: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 18:00:24,947: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 18:00:24,948: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 18:00:27,368: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:04:47,710: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:04:51,173: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:04:51,193: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:04:52,159: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 18:04:52,160: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 18:04:52,171: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:04:58,859: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:05:00,722: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:05:00,742: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:05:01,674: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:05:01,773: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:05:09,387: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:05:09] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:05:11,710: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:05:11] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:05:18,125: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:05:18] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:05:44,710: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 18:05:44,711: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 18:05:44,719: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\app.py', reloading]
+[2023-12-18 18:05:46,479: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:05:53,920: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:05:55,665: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:05:55,686: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:05:56,510: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:05:56,522: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:05:56,879: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:05:56] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:06:06,318: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:06:06] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:07:12,386: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:07:12,387: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:07:12,388: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:07:12,389: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:07:12,390: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:07:13,582: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:07:22,186: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:07:24,011: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:07:24,042: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:07:24,877: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:07:24,890: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:07:35,845: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:07:35] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:07:40,757: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:07:40] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:08:51,627: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:08:53,822: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:08:53,858: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:08:54,829: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 18:08:54,830: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 18:08:54,840: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:09:02,829: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:09:04,371: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:09:04,404: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:09:05,264: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:09:05,278: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:09:05,661: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:09:05] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:09:10,020: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\utils\\image_utils.py', reloading]
+[2023-12-18 18:09:10,037: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\PIL\\Image.py', reloading]
+[2023-12-18 18:09:10,100: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:09:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 18:09:11,761: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:09:19,571: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:09:21,183: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:09:21,213: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:09:22,008: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:09:22,021: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:09:27,562: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:09:27] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:09:32,667: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:09:32] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:09:46,099: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:09:46] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:10:11,106: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:10:11] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:10:26,185: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:10:26] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:11:14,459: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:11:16,655: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:11:16,687: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:11:17,494: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2023-12-18 18:11:17,495: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-18 18:11:17,516: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:11:26,123: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:11:27,654: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:11:27,691: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:11:28,733: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:11:28,753: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:11:29,174: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:11:29] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:11:35,874: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:11:35] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:11:42,416: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\json\\provider.py', reloading]
+[2023-12-18 18:11:42,427: INFO: _internal:  * Detected change in 'C:\\Program Files\\Python311\\Lib\\json\\__init__.py', reloading]
+[2023-12-18 18:11:42,438: INFO: _internal:  * Detected change in 'C:\\Program Files\\Python311\\Lib\\json\\encoder.py', reloading]
+[2023-12-18 18:11:42,482: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:11:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 18:11:43,224: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:11:50,534: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:11:52,136: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:11:52,174: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:11:52,948: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:11:52,960: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:11:56,349: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:11:56] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:12:01,553: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:12:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-18 18:12:12,272: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:12:12] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:12:24,778: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:12:24] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:12:56,208: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:12:56,209: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:12:56,211: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:12:56,213: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:12:56,256: INFO: _internal:  * Detected change in 'e:\\kidney-disease-cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:12:56,258: INFO: _internal:  * Detected change in 'e:\\Kidney-Disease-Cassification\\src\\CNN_Classifier\\pipeline\\prediction.py', reloading]
+[2023-12-18 18:12:58,220: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2023-12-18 18:13:06,922: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-18 18:13:08,333: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-18 18:13:08,354: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-18 18:13:09,077: WARNING: _internal:  * Debugger is active!]
+[2023-12-18 18:13:09,088: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2023-12-18 18:13:14,383: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:13:14] "GET / HTTP/1.1" 200 -]
+[2023-12-18 18:13:19,052: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:13:19] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:13:46,314: INFO: _internal: 127.0.0.1 - - [18/Dec/2023 18:13:46] "POST /predict HTTP/1.1" 200 -]
+[2023-12-18 18:20:23,221: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\__init__.py', reloading]
+[2023-12-18 18:20:23,236: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading]
+[2023-12-18 18:20:23,533: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\scaffold.py', reloading]
+[2023-12-18 18:20:23,607: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\wrappers.py', reloading]
+[2023-12-18 18:20:23,613: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading]
+[2023-12-18 18:20:23,626: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\wrappers\\request.py', reloading]
+[2023-12-18 18:20:23,668: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\sansio\\request.py', reloading]
+[2023-12-18 18:20:23,677: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\json\\__init__.py', reloading]
+[2023-12-18 18:20:23,692: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\wrappers\\response.py', reloading]
+[2023-12-18 18:20:23,752: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\sansio\\response.py', reloading]
+[2023-12-18 18:20:23,781: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\templating.py', reloading]
+[2023-12-18 18:20:23,799: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\__init__.py', reloading]
+[2023-12-18 18:20:23,812: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\environment.py', reloading]
