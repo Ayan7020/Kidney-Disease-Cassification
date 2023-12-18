@@ -28,3 +28,11 @@ class TrainingConfig:
     training_data: Path
     params_epoch: int  
     params_image_size: list    
+    
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model: Path
+    training_data: Path
+    all_params: dict
+    mlflow_url: str
+    params_image_size: list      
