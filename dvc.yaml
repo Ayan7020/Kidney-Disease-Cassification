@@ -1,0 +1,55 @@
+stages:
+  data_ingestion:
+    cmd: python src/CNN_Classifier/pipeline/stage01.py 
+    deps:
+      - src/CNN_Classifier/pipeline/stage01.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/CT_KINDEY_DATASET  
+
+
+  prepare_base_model:
+    cmd: python src/CNN_Classifier/pipeline/stage02.py   
+    deps:
+      - src/CNN_Classifier/pipeline/stage02.py
+      - config/config.yaml 
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - EPOCHS
+      - CLASSES
+      - WEIGHTS
+    outs:
+      -  artifacts/prepare_base_model
+      
+
+  training:
+    cmd: python src/CNN_Classifier/pipeline/stage03.py   
+    deps:
+      - src/CNN_Classifier/pipeline/stage03.py 
+      - config/config.yaml 
+      - artifacts/data_ingestion/CT_KINDEY_DATASET 
+      - artifacts/prepare_base_model
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - EPOCHS
+      - CLASSES
+      - WEIGHTS
+    outs:
+      -  artifacts/training/model.h5
+
+  training:
+    cmd: python src/CNN_Classifier/pipeline/stage04.py         
+    deps:
+      - src/CNN_Classifier/pipeline/stage04.py
+      - config/config.yaml
+      - artifacts/data_ingestion/CT_KINDEY_DATASET
+      - artifacts/training/model.h5
+    params:
+      - IMAGE_SIZE 
+    metrics:
+      - scores.json:
+          cache: false   
+
+
