@@ -540,3 +540,9 @@ x=============x]
 [2023-12-17 19:50:37,670: INFO: stage02: >>>>>> stage Prepare Base model Completed <<<<<<<
 
 x=============x]
+[2023-12-18 01:03:37,640: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-18 01:03:37,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-18 01:03:52,910: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-18 01:09:50,332: INFO: common: json file saved at: scores.json]
+[2023-12-18 01:11:48,446: INFO: builder_impl: Assets written to: C:\Users\Adil\AppData\Local\Temp\tmpyurj2k3d\model\data\model\assets]

@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Kidney-Disease-Cassification/mlruns/0/7c2a07681c28422cb25328640efea988/artifacts
+end_time: 1702842322359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c2a07681c28422cb25328640efea988
+run_name: gregarious-squid-802
+run_uuid: 7c2a07681c28422cb25328640efea988
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702842050640
+status: 3
+tags: []
+user_id: Adil
