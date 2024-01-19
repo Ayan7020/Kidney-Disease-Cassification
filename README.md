@@ -1,8 +1,10 @@
 # Kidney Disease Classification Project
-
+ 
 ## Overview
 
 Welcome to our cutting-edge Kidney Disease Classification project! This repository is dedicated to utilizing deep learning techniques for accurate categorization of kidney conditions, including normal, cyst, tumor, and stone conditions. Our model achieves an impressive 98% accuracy on both training and testing datasets, showcasing its robust performance.
+
+![Alt Text](images/kdney.png)
 
 ## Project Highlights
 
