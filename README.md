@@ -27,7 +27,7 @@ To explore the project and contribute to the future of kidney disease diagnostic
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Ayan7020/kidney-disease-classification.git
+    git clone https://github.com/Ayan7020/Kidney-Disease-Cassification.git
     cd kidney-disease-classification
     ```
 
