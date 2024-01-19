@@ -1788,3 +1788,74 @@ PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x
 ]
 [2023-12-18 18:20:36,115: WARNING: _internal:  * Debugger is active!]
 [2023-12-18 18:20:36,127: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2024-01-19 14:00:55,441: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-01-19 14:01:11,013: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-01-19 14:01:11,068: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-01-19 14:01:15,382: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-01-19 14:01:15,382: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-19 14:01:15,570: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2024-01-19 14:01:22,333: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-01-19 14:01:23,746: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-01-19 14:01:23,765: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-01-19 14:01:24,492: WARNING: _internal:  * Debugger is active!]
+[2024-01-19 14:01:24,667: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2024-01-19 14:02:27,743: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 14:02:27] "GET / HTTP/1.1" 200 -]
+[2024-01-19 14:03:13,071: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 14:03:13] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 16:51:45,643: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Local\\Temp\\__autograph_generated_filed39nf8ow.py', reloading]
+[2024-01-19 16:51:45,959: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Local\\Temp\\__autograph_generated_filepxi9tgp1.py', reloading]
+[2024-01-19 16:51:54,172: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2024-01-19 16:53:19,034: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-01-19 16:53:34,254: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-01-19 16:53:34,308: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-01-19 16:53:36,596: WARNING: _internal:  * Debugger is active!]
+[2024-01-19 16:53:36,628: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2024-01-19 19:54:01,456: INFO: _internal:  * Detected change in 'C:\\Users\\Adil\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\src\\engine\\training.py', reloading]
+[2024-01-19 19:54:10,079: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2024-01-19 19:55:09,801: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-01-19 19:55:22,525: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-01-19 19:55:22,567: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-01-19 19:55:25,032: WARNING: _internal:  * Debugger is active!]
+[2024-01-19 19:55:25,097: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2024-01-19 19:57:15,508: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 19:57:15] "GET / HTTP/1.1" 200 -]
+[2024-01-19 19:58:53,893: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 19:58:53] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 19:59:09,935: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-01-19 19:59:11,493: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-01-19 19:59:11,514: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-01-19 19:59:12,400: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-01-19 19:59:12,401: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-19 19:59:12,412: INFO: _internal:  * Restarting with watchdog (windowsapi)]
+[2024-01-19 19:59:18,962: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-01-19 20:00:30,519: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-01-19 20:00:30,559: WARNING: module_wrapper: From C:\Users\Adil\AppData\Roaming\Python\Python311\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-01-19 20:00:31,442: WARNING: _internal:  * Debugger is active!]
+[2024-01-19 20:00:31,458: INFO: _internal:  * Debugger PIN: 329-867-760]
+[2024-01-19 20:00:31,822: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:00:31] "GET / HTTP/1.1" 200 -]
+[2024-01-19 20:00:31,826: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:00:31] "GET / HTTP/1.1" 200 -]
+[2024-01-19 20:00:32,987: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:00:32] "GET / HTTP/1.1" 200 -]
+[2024-01-19 20:00:42,917: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:00:42] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 20:00:59,543: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:00:59] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 20:01:15,748: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:01:15] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 20:01:59,172: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:01:59] "GET / HTTP/1.1" 200 -]
+[2024-01-19 20:02:15,253: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:02:15] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 20:02:33,275: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:02:33] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 20:02:46,207: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 20:02:46] "POST /predict HTTP/1.1" 200 -]
