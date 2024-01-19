@@ -38,8 +38,7 @@ To explore the project and contribute to the future of kidney disease diagnostic
     ```
 
 3. **Data Exploration:**
-
-    - Explore the dataset provided in the "data" directory.
+ 
     - Review the data preprocessing steps in the Jupyter notebook or Python script.
 
 4. **Train the Model:**
