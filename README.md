@@ -66,6 +66,6 @@ Our model's performance metrics:
 
 For any questions or contributions, please contact [ayanshaikh.pr@gmail.com]. Explore the project on GitHub and be part of the future of kidney disease diagnostics!
 
-**GitHub Repository:** [Kidney Disease Classification](https://github.com/Ayan7020/kidney-disease-classification)
+**GitHub Repository:** [Kidney Disease Classification](https://github.com/Ayan7020/Kidney-Disease-Cassification)
 
 Happy coding!
